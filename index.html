@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+
+    <header>
+        <h1>Hartley Holloway</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my personal webpage! My name is Hartley Holloway, and I am a passionate web developer who also happens to be an actress! Welcome to my actor's portfolio website!</p>
+            <img src="/img/headshot1.jpg" alt="Headshot of Hartley Holloway wearing a dark top in front of a light background" width="200">
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding fun and interactive websites that are visually pleasing.</li>
+                <li>Graphic design; making collages, digital art, and other visual content.</li>
+                <li>Acting and performing in any way possible! Including singing and playing guitar.</li>
+            </ul>
+
+            <p>Check out a favorite website of mine- my IMDb page!
+                <a href="https://www.imdb.com/name/nm6159387/?ref_=ext_shr_lnk" target="_blank">My IMDb Page</a>
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact me!</h2>
+            <form action="https://formspree.io/f/meeeejve" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hartley Holloway. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
